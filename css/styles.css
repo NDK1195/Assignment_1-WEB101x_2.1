@@ -96,8 +96,16 @@ body {
 .skill-name {
   font-weight: bold;
 }
-/* HOBBY SECTION */
+/* PROJECT SECTION */
+.project-content {
+  margin: 15px 0;
+}
+.project-info-list li {
+}
+
 .hobby-list,
-.contact-list {
+.contact-list,
+.project-info-list {
   list-style-position: inside;
+  margin-left: 5px;
 }
