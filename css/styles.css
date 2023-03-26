@@ -46,6 +46,20 @@ body {
   padding-bottom: 3px;
   text-transform: uppercase;
 }
+.section-content {
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.section-timeline {
+  display: inline-block;
+  vertical-align: top;
+  width: 35%;
+}
+.section-content-detail {
+  display: inline-block;
+  width: 64%;
+}
 /* INFO SECTION */
 .info {
   position: relative;
@@ -70,4 +84,11 @@ body {
 /* TARGET SECTION */
 .target-content {
   text-align: justify;
+}
+/* EXPERIENCE SECTION */
+.experience-responsible {
+  list-style: none;
+}
+.experience-responsible li::before {
+  content: '- ';
 }
