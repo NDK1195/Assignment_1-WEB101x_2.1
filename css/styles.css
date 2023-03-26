@@ -96,3 +96,8 @@ body {
 .skill-name {
   font-weight: bold;
 }
+/* HOBBY SECTION */
+.hobby-list,
+.contact-list {
+  list-style-position: inside;
+}
