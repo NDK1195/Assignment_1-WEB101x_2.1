@@ -48,8 +48,8 @@ body {
 }
 .section-content {
   border-bottom: 2px solid rgba(128, 128, 128, 0.2);
-  margin-top: 10px;
-  padding-bottom: 5px;
+  margin-top: 12px;
+  padding-bottom: 7px;
 }
 .section-timeline {
   display: inline-block;
@@ -91,4 +91,8 @@ body {
 }
 .experience-responsible li::before {
   content: '- ';
+}
+/* SKILL SECTION */
+.skill-name {
+  font-weight: bold;
 }
