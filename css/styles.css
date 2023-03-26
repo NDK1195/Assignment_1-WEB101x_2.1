@@ -32,3 +32,32 @@ body {
   position: relative;
   padding: 40px;
 }
+.section-title {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+}
+/* INFO SECTION */
+.info {
+  position: relative;
+  margin: 40px 0;
+}
+.info-photo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 113px;
+}
+.info-title {
+  color: #0e2452;
+}
+.info-content p {
+  margin-bottom: 5px;
+}
+.info-content-title {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 20px;
+  width: 75px;
+}
